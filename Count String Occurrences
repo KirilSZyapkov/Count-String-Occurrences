@@ -1,0 +1,11 @@
+function countStringOccurrences(text, word) {
+    let count = 0;
+    let inputText = text.split(` `);
+    for (let chr of inputText) {
+        if (chr === word) {
+            count++;
+        }
+    }
+
+    console.log(count);
+}
